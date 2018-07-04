@@ -13,7 +13,7 @@ class Anagram
       array = anagram.split("").sort
       if word_array == array
         result.push(array)
-      
+      end
     end
     result
   
